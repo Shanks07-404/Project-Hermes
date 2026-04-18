@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lunar Landing Analysis</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <div id="container">
+    <!-- Left: lunar image -->
+    <div id="left-panel">
+      <canvas id="lunarCanvas"></canvas>
+    </div>
+
+    <!-- Right: pie chart + info -->
+    <div id="right-panel">
+      <canvas id="pieChartCanvas"></canvas>
+
+      <div id="info">
+        <h2 id="decision">Decision: SAFE</h2>
+        <div class="stats">
+          <p>Safe: <span id="safePct">0%</span></p>
+          <p>Divert: <span id="divertPct">0%</span></p>
+          <p>Abort: <span id="abortPct">0%</span></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/static/script.js"></script>
+</body>
+</html>

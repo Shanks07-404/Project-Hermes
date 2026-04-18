@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+#left-panel {
+  flex: 1.3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+}
+
+#right-panel {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #111;
+  padding: 20px;
+}
+
+#lunarCanvas {
+  width: 95%;
+  height: 95%;
+  object-fit: contain;
+  background-color: #000;
+}
+
+#pieChartCanvas {
+  width: 70%;
+  height: 50%;
+  margin-bottom: 20px;
+}
+
+#info {
+  text-align: center;
+}
+
+#decision {
+  font-size: 2rem;
+  color: #00ffcc;
+  margin-bottom: 15px;
+}
+
+.stats p {
+  font-size: 1.2rem;
+  margin: 5px 0;
+}
