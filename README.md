@@ -1,8 +1,8 @@
 # Lunar Landing Analysis
 
-A Flask-based web application that analyzes digital elevation models (DEM) of the lunar surface using Computer Vision and Data Science techniques to calculate terrain risks and predict safe landing zones in real-time. 
+A Flask-based web application that analyzes digital elevation models (DEM) of the lunar surface using Computer Vision and Data Science techniques to calculate terrain risks and predict safe landing zones in real time. 
 
-This interactive tool is designed to assess the safety of lunar landing zones by processing high-resolution topographical data. It calculates a weighted risk score based on slope proxy, terrain roughness, and the presence of craters, boulders, or shadows, providing an instant statistical probability of a safe landing.
+This interactive tool is designed to assess the safety of lunar landing zones by processing high-resolution topographical data. It calculates a weighted risk score based on slope proximity, terrain roughness, and the presence of craters, boulders, or shadows, providing an instant statistical probability of a safe landing.
 
 ---
 
